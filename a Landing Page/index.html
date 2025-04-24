@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+
+    <style>
+        .container {
+             display: flex; 
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+            width: 200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+        .card h3 {
+            margin: 10px 0;
+        }
+        .card p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;  background-image: url('https://i.imgur.com/RurqKDM.jpg'); padding: 30px; background-size: cover;
+    background-position: center; color: white; ">
+     <h1 >Welcome to Our Service</h1>
+     <p >Discover the future of online experience.</p>
+     <button style="background-color:  #007bff; color: white;">Learn More</button>
+    </div>
+    <br>
+    <section>
+     <div class="container">
+        <div class="card">
+            <h3>Feature One</h3>
+            <p>Description of Feature One.</p>
+        </div>
+        <div class="card">
+            <h3>Feature Two</h3>
+            <p>Description of Feature Two.</p>
+        </div>
+    </section>
+        <footer style="background-color: black ; color: white; padding: 13px; text-align: center;">
+            <p >© 2023 Dynamic Landing Page. All rights reserved.</p>
+        </footer>
+
+</body>
+</html>
